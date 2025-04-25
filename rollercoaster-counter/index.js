@@ -36,6 +36,7 @@ function save() {
     }
     console.log(count)
     runningTotal += count
+    
     // To amend just PART of a line we can use the <span> in the HTML and innerHTML in the js
     dailyTotal.innerHTML = runningTotal
     count = 0
